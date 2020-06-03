@@ -2,7 +2,7 @@
 
 neat - **N**odejs + **E**xpress + **A**pollo server + **T**ype-graphql
 
-A nodejs server app integrate with express, type-graphql, apollo server and gorest open api.
+A nodejs server app demo integrate with express, type-graphql, apollo server and gorest open api.
 
 ### 1. Go to gorest sign in page to get a token: https://gorest.co.in/user/login.html;
 ### 2. Paste token to index.ts Context.token property;
