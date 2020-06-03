@@ -20,4 +20,5 @@ A nodejs server app integrate with express, type-graphql, apollo server and gore
             return ctx;
         },
     ```
-### 3. npm start.
+### 3. npm i;
+### 4. npm start.
