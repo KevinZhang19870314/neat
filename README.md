@@ -6,7 +6,7 @@ A nodejs server app integrate with express, type-graphql, apollo server and gore
 
 ### 1. Go to gorest sign in page to get a token: https://gorest.co.in/user/login.html;
 ### 2. Paste token to index.ts Context.token property;
-    ```typescript
+    ```js
             context: (integrationContext: { req: http.IncomingMessage, res: http.ServerResponse }) => {
             let ctx: Context = {
                 req: integrationContext.req,
