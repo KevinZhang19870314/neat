@@ -21,4 +21,4 @@ A nodejs server app integrate with express, type-graphql, apollo server and gore
         },
     ```
 ### 3. npm i;
-### 4. npm start.
+### 4. npm start, open http://localhost:4000/graphql.
