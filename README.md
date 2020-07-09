@@ -8,16 +8,16 @@ A nodejs server app demo integrate with express, type-graphql, apollo server and
 ### 2. Paste token to index.ts Context.token property;
 ```js
 context: (integrationContext: { req: http.IncomingMessage, res: http.ServerResponse }) => {
-let ctx: Context = {
-    req: integrationContext.req,
-    res: integrationContext.res,
-    mode: <any>process.env['NODE_ENV'] || 'development',
-    baseUrl: getBaseUrl(),
-    // TODO: kevinzhang paste the real token for gorest
-    token: '###token###'
-}
+    let ctx: Context = {
+        req: integrationContext.req,
+        res: integrationContext.res,
+        mode: <any>process.env['NODE_ENV'] || 'development',
+        baseUrl: getBaseUrl(),
+        // TODO: kevinzhang paste the real token for gorest
+        token: '###token###'
+    }
 
-return ctx;
+    return ctx;
 },
 ```
 ### 3. npm i;
